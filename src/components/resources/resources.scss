@@ -1,0 +1,121 @@
+
+@import '../../global.scss';
+.resources{
+    overflow: hidden;
+    background-color:#F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .rschead{
+        font-family: 'Open Sans Condensed', sans-serif;
+        h1{
+            font-size: 64px;
+          @include mobile{
+             font-size: 45px;
+          }
+         }
+    }
+.cards{
+    
+    @include mobile{
+        font-size: 0.8rem; 
+        min-height: 300px; 
+        width: 380px;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .ideCard{
+        @include mobile{
+            width:200px;
+            min-height: 200px;
+        }
+
+
+        cursor: pointer;
+        background-color:#eee;
+        box-shadow: 0 8px 8px -4px #009DAE;
+        h2{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .icon{
+           
+            .link{ text-decoration: none;
+                color: black;
+                &:hover{
+                    color: #009DAE;
+                }}
+            margin-top: 20px;
+            font-size: 60px;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width:320px;
+        min-height: 350px;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 20px;
+        margin: 20px;
+        &:hover{
+            box-shadow: 0px 0px 30px grey;
+            transition: all 0.3s;
+            .caption{
+                color:#009DAE;
+                transition: all 1.5s;
+            }
+        }
+        .caption{
+            color:#eee;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+    .studyMaterial{
+        @include mobile{
+            width:200px;
+            min-height: 200px;
+        }
+        cursor: pointer;
+        background-color:#eee;
+        box-shadow: 0 8px 8px -4px #009DAE;
+        h2{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .icon{
+            .link{ text-decoration: none;
+                color: black;
+                &:hover{
+                    color: #009DAE;
+                }}
+            margin-top: 20px;
+            font-size: 60px;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        width:320px;
+        min-height: 350px;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 20px;
+
+        &:hover{
+            box-shadow: 0px 0px 30px grey;
+            transition: all 0.3s;
+            .caption{
+                color:#009DAE;
+                transition: all 1.5s;
+            }
+        }
+        .caption{
+            color:#eee;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+}

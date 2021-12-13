@@ -1,0 +1,70 @@
+@import '../../global.scss';
+.IDECards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .back{
+      @include mobile{
+        left:15px;
+        top:15px;
+      }
+        color:#009dae;
+        position: absolute;
+        left:50px;
+        top:40px;
+        font-size: 50px;
+
+        &:hover{
+            color:#FC5185;
+        }
+        .link{
+            text-decoration: none;
+            color: inherit;
+            @include mobile{
+                font-size: 30px;
+                }
+        }
+    }
+    
+    .Cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    .lang{
+        @include mobile{
+            width:200px;
+            height: 150px;
+        }
+        .icon{
+            text-decoration: none;
+            color:black;
+            font-size: 70px;
+            &:hover{
+                color:#009DAE;
+            }
+            @include mobile{
+                font-size:50px;
+            }
+        }
+        h3{
+            padding-top: 10px;
+            font-size: 1.5em;
+        }
+        margin:20px;
+        border-radius: 5%;
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        height: 200px;
+        width:300px;
+        box-shadow: 0 8px 8px -4px #009DAE;
+        &:hover{
+            box-shadow: 0px 0px 65px grey;
+        }
+    }
+}   }

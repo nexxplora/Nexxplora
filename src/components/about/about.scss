@@ -1,0 +1,33 @@
+@import '../../global.scss';
+.about{
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ 
+   .abthead{
+   font-family: 'Open Sans Condensed', sans-serif;
+
+    h1{
+      font-size: 64px;
+    @include mobile{
+       font-size: 45px;
+    }
+   }
+
+   }
+   .abtContent{
+    font-family: 'Montserrat', sans-serif;
+    text-align:justify;
+    font-size: 1.5em;
+    padding:80px;
+    font-weight: 400;
+    line-height: 1.6;
+    @include mobile{
+       padding:30px;
+       line-height: 1.3;
+       font-size: 16px;
+    }
+   }
+}
