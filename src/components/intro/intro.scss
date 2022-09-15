@@ -1,6 +1,22 @@
 @import '../../global.scss';
 .intro{
-    
+    .btn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 60px;
+        button{
+            height: 100%;
+            width:300px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: #E80F88;
+            border: none;
+            font-family: 'Open Sans Condensed', sans-serif;
+            letter-spacing: 3px;
+            cursor: pointer;
+        }
+      }
     overflow: scroll;
     #head{
         font-weight:500;

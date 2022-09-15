@@ -7,10 +7,15 @@ export default function Events(){
     return (
        
         <div className="events" id="events">
-        <div className='btn'>
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdtfhKUUuPEqTRlON0WjMt_0I513avg_fxYHcKZvSM1-DfwKw/viewform">
-            <button> Click To Register</button>
-            </a>
+       
+        <div className='orgs'>
+        <h3>Contact Us:</h3>
+           <button className='person'>
+            <a href="tel:8601282403">Ritwik Sinha</a>
+           </button>
+           <button className='person'>
+            <a href="tel:8954535590">Prakhar Saxena</a>
+           </button>
         </div>
         <div className='head'>Events</div>
         <div className='cards'>
