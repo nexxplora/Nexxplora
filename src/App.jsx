@@ -32,6 +32,9 @@ function App() {
     <Routes>
       <Route path="/Nexxplora" element={[ <Intro/>,<Events/>]}/>
     </Routes>
+    <Routes>
+      <Route path="/events" element={<Events/>}/>
+    </Routes>
    
     </Router>
     
