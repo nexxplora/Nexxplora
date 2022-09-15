@@ -30,7 +30,7 @@ function App() {
     <div className="sections">
     <Router>
     <Routes>
-      <Route path="/" element={[ <Intro/>,<Events/>]}/>
+      <Route path="/Nexxplora" element={[ <Intro/>,<Events/>]}/>
     </Routes>
    
     </Router>
