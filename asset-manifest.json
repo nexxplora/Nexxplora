@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Nexxplora/static/css/main.a972cc5f.chunk.css",
-    "main.js": "/Nexxplora/static/js/main.dff64b65.chunk.js",
-    "main.js.map": "/Nexxplora/static/js/main.dff64b65.chunk.js.map",
+    "main.js": "/Nexxplora/static/js/main.bb9988e4.chunk.js",
+    "main.js.map": "/Nexxplora/static/js/main.bb9988e4.chunk.js.map",
     "runtime-main.js": "/Nexxplora/static/js/runtime-main.4f586e22.js",
     "runtime-main.js.map": "/Nexxplora/static/js/runtime-main.4f586e22.js.map",
-    "static/js/2.c09898b1.chunk.js": "/Nexxplora/static/js/2.c09898b1.chunk.js",
-    "static/js/2.c09898b1.chunk.js.map": "/Nexxplora/static/js/2.c09898b1.chunk.js.map",
+    "static/js/2.c8455262.chunk.js": "/Nexxplora/static/js/2.c8455262.chunk.js",
+    "static/js/2.c8455262.chunk.js.map": "/Nexxplora/static/js/2.c8455262.chunk.js.map",
     "index.html": "/Nexxplora/index.html",
     "static/css/main.a972cc5f.chunk.css.map": "/Nexxplora/static/css/main.a972cc5f.chunk.css.map",
-    "static/js/2.c09898b1.chunk.js.LICENSE.txt": "/Nexxplora/static/js/2.c09898b1.chunk.js.LICENSE.txt"
+    "static/js/2.c8455262.chunk.js.LICENSE.txt": "/Nexxplora/static/js/2.c8455262.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4f586e22.js",
-    "static/js/2.c09898b1.chunk.js",
+    "static/js/2.c8455262.chunk.js",
     "static/css/main.a972cc5f.chunk.css",
-    "static/js/main.dff64b65.chunk.js"
+    "static/js/main.bb9988e4.chunk.js"
   ]
 }
