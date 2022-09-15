@@ -28,8 +28,13 @@ function App() {
    <Menu setState={setState} state={state} />
    
     <div className="sections">
-    <Intro/>
-    <Events/>
+    <Router>
+    <Routes>
+      <Route path="/" element={[ <Intro/>,<Events/>]}/>
+    </Routes>
+   
+    </Router>
+    
     </div>
     </div>
   
