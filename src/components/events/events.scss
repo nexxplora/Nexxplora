@@ -15,11 +15,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+      .btn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 60px;
+        button{
+            height: 100%;
+            width:300px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: #E80F88;
+            border: none;
+            font-family: 'Open Sans Condensed', sans-serif;
+            letter-spacing: 3px;
+            cursor: pointer;
+        }
+      }
     .head{
         
             font-size: 64px;
-            margin-top: 70px;
+            margin-top: 40px;
           @include mobile{
              font-size: 45px;
           }
