@@ -1,10 +1,37 @@
 @import '../../global.scss';
 .card{
+    .btn{
+        background-color: #009DAE;
+        text-align: center;
+        border-radius: 3px;
+        margin: 5px;
+        width: 80px;
+        padding: 5px;
+        a{
+            text-decoration: none;
+            
+            color:white;
+
+        }
+    }
+    .content{
+        align-self: left;
+        display: flex;
+        flex-direction: column;
+       margin-top: 5px;
+    }
+    padding:5px;
+    font-family: 'Open Sans Condensed', sans-serif;
     @include mobile{
-        width:210px;
-        height:200px;
+        width:270px;
+        height:550px;
         margin: 5px;
         min-height: 230px;
+    }
+    .title{
+        font-size: 20px;
+        font-weight: bold;
+        
     }
     cursor: pointer;
     display: flex;
@@ -19,8 +46,8 @@
     box-shadow: 0 8px 8px -4px #009DAE;
     img{
         @include mobile{
-            height: 200px;
-            width: 190px;
+            height: 100px;
+            width: 250px;
         }
         height: 315px;
         width: 305px;
@@ -35,7 +62,7 @@
             padding-top: 3px;
         }
         padding-top: 5px;
-        text-align: justify;
+        text-align: left;
     }
 
 }

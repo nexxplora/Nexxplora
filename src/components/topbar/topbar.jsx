@@ -10,7 +10,7 @@ function Topbar(props){
         <div className={props.state?"topbar active":"topbar"} d>
         <div className="wrapper">
             <div className="left">
-            <a href="#intro" className="logo">Ciphers</a>
+            <a href="#intro" className="logo">Nexxplora 2K22</a>
             </div>
             <div className="right">
                 <div className="hamburger" onClick={()=>

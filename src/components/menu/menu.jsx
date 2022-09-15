@@ -9,20 +9,9 @@ export default function Menu(props){
                 <a href="/">Home</a>
                 </li>
                 <li onClick={()=>props.setState(false)}>
-                <a href="/#about">About</a>
-                </li>
-                <li onClick={()=>props.setState(false)}>
-                <a href="/#resources">Resources</a>
-                </li>
-                <li onClick={()=>props.setState(false)}>
                 <a href="/#events">Events</a>
                 </li>
-                <li onClick={()=>props.setState(false)}>
-                <a href="/#committee">Our Team</a>
-                </li>
-                <li onClick={()=>props.setState(false)}>
-                <a href="/#contact">Contact</a>
-                </li>
+                
             </ul>
         </div>
     );
