@@ -1,7 +1,7 @@
 import React from "react";
 import "./menu.scss";
 export default function Menu(props){
-  
+
     return(
         <div className={props.state?"menu active":"menu"} >
             <ul>
