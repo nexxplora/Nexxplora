@@ -1,7 +1,7 @@
 {
   "name": "ciphers",
   "version": "0.1.0",
-  "homepage":"https://nexxplora.github.io/Nexxplora",
+  "homepage": "https://nexxplora.github.io/Nexxplora",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -14,9 +14,8 @@
     "react-dom": "^17.0.2",
     "react-fade-in": "^2.0.1",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.3.1",
+    "react-icons": "^4.4.0",
     "react-loading": "^2.0.3",
-    "react-lottie": "^1.2.3",
     "react-router-dom": "^6.0.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "4.0.3",

@@ -16,6 +16,12 @@ export default function Events(){
            <button className='person'>
             <a href="tel:8954535590">Prakhar Saxena</a>
            </button>
+           <button className='person'>
+            <a href="tel:8090664264">Akash Singh</a>
+           </button>
+           <button className='person'>
+            <a href="tel:6394039425">Neelesh Prajapati</a>
+           </button>
         </div>
         <div className='head'>Events</div>
         <div className='cards'>
@@ -28,7 +34,12 @@ export default function Events(){
           faculty={item.faculty} 
           winners={item.winners}
            volunteers={item.volunteers} 
-           phone={item.phone}/>
+           phone={item.phone}
+            desc={item.desc}
+            date={item.date}
+            time={item.time}
+            location={item.location}
+           />
          );
                 
         })}

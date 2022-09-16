@@ -24,21 +24,21 @@ function App() {
     return (
     
    <div className="app">
+   <Router>
    <Topbar setState={setState} state={state} />
    <Menu setState={setState} state={state} />
    
     <div className="sections">
-    <Router>
+    
     <Routes>
       <Route path="/Nexxplora" element={[ <Intro/>,<Events/>]}/>
     </Routes>
-    <Routes>
-      <Route path="/events" element={<Events/>}/>
-    </Routes>
+  
    
-    </Router>
+    
     
     </div>
+    </Router>
     </div>
   
     );

@@ -1,6 +1,47 @@
 @import '../../global.scss';
 .card{
-    .btn{
+    .dtl{
+        width: 90%;
+        display: flex;
+        align-items:center ;
+        justify-content: space-around;
+        padding: 10px;
+        .icon{
+            color: #E80f88;
+        }
+        p{
+            display: inline;
+           
+            font-family: 'VT323', monospace;
+            margin-left: 5px;
+            font-weight: bold;
+
+        }
+    }
+    .content{
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        p{
+
+            text-align: left;
+            width: 90%;
+            font-size: 0.8em;
+        }
+        margin-top: 5px;
+        
+    }
+    .desc{
+     
+        padding: 5px;
+        font-family: sans-serif;
+        p{
+        font-size: 16px;
+        text-align: justify;
+        }
+    }
+        .btn{
         background-color: #009DAE;
         text-align: center;
         border-radius: 3px;
@@ -15,24 +56,30 @@
 
         }
     }
-    .content{
-        align-self: left;
-        display: flex;
-        flex-direction: column;
-       margin-top: 5px;
-    }
+   
     padding:5px;
     font-family: 'Open Sans Condensed', sans-serif;
     @include mobile{
         width:270px;
-        height:550px;
+        
         margin: 5px;
         min-height: 230px;
     }
     .title{
+        border-radius: 20px;
+          padding: 5px;
         font-size: 20px;
         font-weight: bold;
-        
+        letter-spacing: 2px;
+        background-color: #009DAE;
+        width:300px;
+        text-align: center;
+        color: white;
+        @include mobile{
+          width: 270px;
+          border-radius: 20px;
+          padding: 5px;
+        }
     }
     cursor: pointer;
     display: flex;

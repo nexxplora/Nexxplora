@@ -28,13 +28,13 @@
 
         .left{
             display: flex;
-            flex: 1;
+           
             align-items: center;
             justify-content: center;
             .logo{
                
                 @include mobile{
-                    font-size: 20px;
+                    font-size: 30px;
                 }
                 text-decoration: none;
                 font-size: 40px;
@@ -46,7 +46,7 @@
         }
 
         .right{
-           display: none;
+      
             .hamburger{
                 width:35px;
                 height:28px;
