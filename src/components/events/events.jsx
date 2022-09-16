@@ -9,7 +9,7 @@ export default function Events(){
         <div className="events" id="events">
        
         <div className='orgs'>
-        <h3>Contact Us:</h3>
+        <h3>Event Organizers :</h3>
            <button className='person'>
             <a href="tel:8601282403">Ritwik Sinha</a>
            </button>
