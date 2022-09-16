@@ -67,8 +67,8 @@ const data=[
       "3. Ajeet Kumar",
       "4. Manoj Pandey ",
       "5. Ankit Kumar Maurya "],
-    faculty:["1. Mr. Faizan Mahmood",
-            "2. Mrs. Akanksha Srivastava"],
+    faculty:[
+            "1. Mrs. Akanksha Srivastava"],
             winners:["1.(Yet To Announce)","2.(Yet To Announce)","3.(Yet To Announce)"],
       phone:"tel:8726776286",
       date:" ",
