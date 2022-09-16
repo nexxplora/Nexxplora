@@ -29,14 +29,14 @@ export default function Intro(){
         <blockquote class="rahul">
             Participation is the key to success , so do participate and become the face of your field.
             All The Best!
-            <span id="name">Mr. Rahul Gupta(Head IT)</span>
+            <span id="name">Mr. Rahul Gupta<p>(Head - IT)</p></span>
         </blockquote>
     
         <blockquote class="sambhav">
            Every Student has the ability to shine and it's never too late for anything , so take your first step from here!
            Do participate, and remember results are the fruit of practice so just give it your best!
            All The Very Best!
-            <span id="name">Mr. Sambhav Agarwal(Deputy Head CS)</span>
+            <span id="name">Mr. Sambhav Agarwal<p>(Deputy Head - CSE)</p></span>
         </blockquote>
     </div>
           
